@@ -2,6 +2,7 @@ import cv2 as cv
 import matplotlib.pyplot as plt
 import time
 import datetime
+import numpy as np
 
 
 # Decorator.
@@ -21,7 +22,7 @@ def timeit(method):
     return timed
 
 
-def process(frame):
+def save_file_locally(frame):
     # Saves images.
     name = f"/home/paul/Desktop/images/{index}.jpg"
     print('Creating...' + name)
@@ -29,8 +30,6 @@ def process(frame):
 
 
 def sift():
-    import numpy as np
-
     img1 = cv.imread('box.png', cv.IMREAD_GRAYSCALE)  # queryImage
     img2 = cv.imread('box_in_scene.png', cv.IMREAD_GRAYSCALE)  # trainImage
     # Initiate SIFT detector
@@ -63,5 +62,5 @@ index = 0
 vid = cv.VideoCapture(0)
 while True:
     ret, frame = vid.read()
-    process(frame) if ret else 0
+    save_file_locally(frame) if ret else 0
     index += 1
