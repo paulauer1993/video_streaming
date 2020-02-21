@@ -1,31 +1,10 @@
-# import cv2
-#
-# cap = cv2.VideoCapture(0)
-#
-# while True:
-#     # Capture frame-by-frame
-#     ret, frame = cap.read()
-#
-#     # Our operations on the frame come here
-#     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-#
-#     # Display the resulting frame
-#     cv2.imshow('frame', gray)
-#     if cv2.waitKey(1) & 0xFF == ord('q'):
-#         break
-#
-# # When everything done, release the capture
-# cap.release()
-# cv2.destroyAllWindows()
-#
-
-import cv2
-import os
-import time
-import datetime
 import cv2 as cv
 import matplotlib.pyplot as plt
+import time
+import datetime
 
+
+# Decorator.
 def timeit(method):
     def timed(*args, **kw):
         ts = datetime.datetime.now().strftime("%H:%M:%S:%f")
@@ -41,32 +20,12 @@ def timeit(method):
         return result
     return timed
 
-vid = cv2.VideoCapture(0)
-index = 0
 
-def capture():
-    # set video file path of input video with name and extension
-    # for frame identity
-
-    while True:
-        # if not ret:
-        #     break
-        process()
-
-@timeit
-def process():
-    # Extract images
-    ret, frame = vid.read()
-    # end of frames
-
-
-    # Saves images
-    name = '/home/paul/Desktop/images/' + str(index) + '.jpg'
-    print ('Creating...' + name)
-    cv2.imwrite(name, frame)
-
-    # next frame
-    index += 1
+def process(frame):
+    # Saves images.
+    name = f"/home/paul/Desktop/images/{index}.jpg"
+    print('Creating...' + name)
+    cv.imwrite(name, frame)
 
 
 def sift():
@@ -98,6 +57,11 @@ def sift():
     img3 = cv.drawMatchesKnn(img1, kp1, img2, kp2, matches, None, **draw_params)
     plt.imshow(img3, ), plt.show()
 
-capture()
 
-
+index = 0
+# Set video file path of input video with name and extension.
+vid = cv.VideoCapture(0)
+while True:
+    ret, frame = vid.read()
+    process(frame) if ret else 0
+    index += 1
