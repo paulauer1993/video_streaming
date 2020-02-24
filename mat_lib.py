@@ -25,5 +25,3 @@ plt.xticks(fontsize=40)
 plt.yticks(fontsize=40)
 # Save the plot into a file.
 plt.savefig("/home/paul/Desktop/da.png")
-
-
