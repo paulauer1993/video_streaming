@@ -10,9 +10,9 @@ y3 = np.array([random.randint(0, 200) for _ in range(200)])
 # Graph size.
 plt.figure(figsize=(100, 40))
 # Plot.
-plt.plot(x, y1, label="Root 1", linewidth=6, color="red")
-plt.plot(x, y2, label="Root 2", linewidth=6, color="green")
-plt.plot(x, y3, label="Root 3", linewidth=6, color="blue")
+plt.plot(x, y1, label="Route 1", linewidth=6, color="red")
+plt.plot(x, y2, label="Route 2", linewidth=6, color="green")
+plt.plot(x, y3, label="Route 3", linewidth=6, color="blue")
 # Show the Legend.
 plt.legend(prop={"size": 50}, loc="upper left")
 # Title.
