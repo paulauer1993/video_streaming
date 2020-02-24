@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="32e46274-6315-4727-8a28-6a5da7846094" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mat_lib.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XTWqOkbY52ZnT7fMWnL5kZFmNK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.mat_lib">
+    <configuration name="mat_lib" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="video" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mat_lib.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="stream" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stream.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.mat_lib" />
+        <item itemvalue="Python.stream" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="32e46274-6315-4727-8a28-6a5da7846094" name="Default Changelist" comment="" />
+      <created>1581070754282</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581070754282</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2605" y="118" key="#stream" timestamp="1582288630418">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2605" y="118" key="#stream/0.21.1920.1015/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582288630418" />
+    <state x="2668" y="276" key="FileChooserDialogImpl" timestamp="1582554718928">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2668" y="276" key="FileChooserDialogImpl/0.21.1920.1015/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582554718928" />
+    <state width="1899" height="283" key="GridCell.Tab.0.bottom" timestamp="1582554772385">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="283" key="GridCell.Tab.0.bottom/0.21.1920.1015/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582554772385" />
+    <state width="1899" height="283" key="GridCell.Tab.0.center" timestamp="1582554772385">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="283" key="GridCell.Tab.0.center/0.21.1920.1015/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582554772385" />
+    <state width="1899" height="283" key="GridCell.Tab.0.left" timestamp="1582554772384">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="283" key="GridCell.Tab.0.left/0.21.1920.1015/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582554772384" />
+    <state width="1899" height="283" key="GridCell.Tab.0.right" timestamp="1582554772385">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="283" key="GridCell.Tab.0.right/0.21.1920.1015/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582554772385" />
+    <state x="2468" y="256" key="IDE.errors.dialog" timestamp="1581923718496">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2468" y="256" key="IDE.errors.dialog/0.21.1920.1015/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581923718496" />
+    <state x="2389" y="153" key="SettingsEditor" timestamp="1582288620427">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2389" y="153" key="SettingsEditor/0.21.1920.1015/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582288620427" />
+    <state x="158" y="84" width="1720" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1582274014340">
+      <screen x="0" y="21" width="1920" height="1015" />
+    </state>
+    <state x="158" y="84" width="1720" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.21.1920.1015/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582274014340" />
+    <state x="2568" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1582547507693">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2568" y="343" key="com.intellij.ide.util.TipDialog/0.21.1920.1015/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582547507693" />
+  </component>
+</project>
