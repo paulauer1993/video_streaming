@@ -2,7 +2,6 @@ import cv2 as cv
 import matplotlib.pyplot as plt
 import time
 import datetime
-import numpy as np
 
 
 # Decorator.

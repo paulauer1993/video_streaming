@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32e46274-6315-4727-8a28-6a5da7846094" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mat_lib.py" beforeDir="false" afterPath="$PROJECT_DIR$/mat_lib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imageCompareEngine/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/imageCompareEngine/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stream.py" beforeDir="false" afterPath="$PROJECT_DIR$/stream.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +40,28 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.mat_lib">
+  <component name="RunManager" selected="Python.ImageProcess">
+    <configuration name="ImageProcess" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="video" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ImageProcess.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="mat_lib" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="video" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -83,6 +106,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ImageProcess" />
         <item itemvalue="Python.mat_lib" />
         <item itemvalue="Python.stream" />
       </list>
@@ -110,22 +134,22 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2668" y="276" key="FileChooserDialogImpl/0.21.1920.1015/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582554718928" />
-    <state width="1899" height="283" key="GridCell.Tab.0.bottom" timestamp="1582558892838">
+    <state width="1899" height="283" key="GridCell.Tab.0.bottom" timestamp="1582631835701">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="283" key="GridCell.Tab.0.bottom/0.21.1920.1015/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582558892838" />
-    <state width="1899" height="283" key="GridCell.Tab.0.center" timestamp="1582558892837">
+    <state width="1899" height="283" key="GridCell.Tab.0.bottom/0.21.1920.1015/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582631835701" />
+    <state width="1899" height="283" key="GridCell.Tab.0.center" timestamp="1582631835701">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="283" key="GridCell.Tab.0.center/0.21.1920.1015/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582558892837" />
-    <state width="1899" height="283" key="GridCell.Tab.0.left" timestamp="1582558892837">
+    <state width="1899" height="283" key="GridCell.Tab.0.center/0.21.1920.1015/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582631835701" />
+    <state width="1899" height="283" key="GridCell.Tab.0.left" timestamp="1582631835701">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="283" key="GridCell.Tab.0.left/0.21.1920.1015/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582558892837" />
-    <state width="1899" height="283" key="GridCell.Tab.0.right" timestamp="1582558892838">
+    <state width="1899" height="283" key="GridCell.Tab.0.left/0.21.1920.1015/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582631835701" />
+    <state width="1899" height="283" key="GridCell.Tab.0.right" timestamp="1582631835701">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="283" key="GridCell.Tab.0.right/0.21.1920.1015/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582558892838" />
+    <state width="1899" height="283" key="GridCell.Tab.0.right/0.21.1920.1015/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582631835701" />
     <state x="2468" y="256" key="IDE.errors.dialog" timestamp="1581923718496">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -134,13 +158,13 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2389" y="153" key="SettingsEditor/0.21.1920.1015/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582288620427" />
-    <state x="158" y="84" width="1720" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1582556661527">
+    <state x="158" y="84" width="1720" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1582625926006">
       <screen x="0" y="21" width="1920" height="1015" />
     </state>
-    <state x="158" y="84" width="1720" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.21.1920.1015/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582556661527" />
-    <state x="2568" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1582547507693">
+    <state x="158" y="84" width="1720" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.21.1920.1015/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582625926006" />
+    <state x="2568" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1582617051839">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2568" y="343" key="com.intellij.ide.util.TipDialog/0.21.1920.1015/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582547507693" />
+    <state x="2568" y="343" key="com.intellij.ide.util.TipDialog/0.21.1920.1015/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582617051839" />
   </component>
 </project>
