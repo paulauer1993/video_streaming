@@ -1,17 +1,20 @@
 import matplotlib.pyplot as plt
 import numpy as np
-import random
+
+
+path = "/home/paul/Desktop/da.png"
 
 
 # HLK
-def plot():
+def plot(lst1, lst2, lst3, loops):
     # X and Y axis value.
-    x = np.array([_ for _ in range(1, 201)])
-    y1 = np.array([random.randint(0, 200) for _ in range(200)])
-    y2 = np.array([_ for _ in range(200)])
-    y3 = np.array([random.randint(0, 200) for _ in range(200)])
+    x = np.array(list(range(loops)))
+    y1 = np.array([_ for _ in lst1])
+    y2 = np.array([_ for _ in lst2])
+    y3 = np.array([_ for _ in lst3])
     # Graph size.
-    plt.figure(figsize=(100, 40))
+    length = len(loops)
+    plt.figure(figsize=(length // 2, length // 6))
     # Plot.
     plt.plot(x, y1, label="Route 1", linewidth=6, color="red")
     plt.plot(x, y2, label="Route 2", linewidth=6, color="green")
@@ -27,4 +30,4 @@ def plot():
     plt.xticks(fontsize=40)
     plt.yticks(fontsize=40)
     # Save the plot into a file.
-    plt.savefig("/home/paul/Desktop/da.png")
+    plt.savefig(path)

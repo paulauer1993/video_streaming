@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32e46274-6315-4727-8a28-6a5da7846094" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ImageProcess.py" beforeDir="false" afterPath="$PROJECT_DIR$/ImageProcess.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imageCompareEngine" beforeDir="false" afterPath="$PROJECT_DIR$/imageCompareEngine" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imageCompareEngine/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/imageCompareEngine/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mat_lib.py" beforeDir="false" afterPath="$PROJECT_DIR$/mat_lib.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
