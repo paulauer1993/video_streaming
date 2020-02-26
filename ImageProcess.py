@@ -10,7 +10,7 @@ original_screen = "path"
 current_screen = "path2"
 
 
-# Decorator.
+# Decorator
 def timeit(method):
     def timed(*args, **kw):
         ts = datetime.datetime.now().strftime("%H:%M:%S:%f")
@@ -27,6 +27,7 @@ def timeit(method):
     return timed
 
 
+# HLK
 def go_route(route):
     if route == 1:
         pass
@@ -64,7 +65,8 @@ def crop_image(path, route):
 
 
 def timer(t0, t1):
-    return t1 - t0
+    lst = []
+    lst.append(t0 - t1)
 
 
 def start_threads():
@@ -79,7 +81,11 @@ def start_threads():
 def compare_screens(original_screen, current_screen):
     output = subprocess.getoutput(f"/home/paul/video/imageCompareEngine/build/imageCompare {original_screen} {current_screen}").split()
     similarity = re.findall(r"\d+", output[1])
-    return int(similarity)
+    return int(similarity[0])
 
+
+# HLK
+def calculate_average(lst):
+    return sum(lst) / len(lst)
 
 # ./imageCompare ../sample.jpg ../sample.jpg
