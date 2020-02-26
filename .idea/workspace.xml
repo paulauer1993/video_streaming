@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32e46274-6315-4727-8a28-6a5da7846094" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageProcess.py" beforeDir="false" afterPath="$PROJECT_DIR$/ImageProcess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imageCompareEngine" beforeDir="false" afterPath="$PROJECT_DIR$/imageCompareEngine" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imageCompareEngine/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/imageCompareEngine/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream.py" beforeDir="false" afterPath="$PROJECT_DIR$/stream.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stream.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,8 +108,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.ImageProcess" />
-        <item itemvalue="Python.mat_lib" />
         <item itemvalue="Python.stream" />
+        <item itemvalue="Python.mat_lib" />
       </list>
     </recent_temporary>
   </component>
@@ -126,6 +127,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2568" y="248" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1582704541082">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2568" y="248" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.21.1920.1015/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582704541082" />
     <state x="2605" y="118" key="#stream" timestamp="1582288630418">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -134,22 +139,22 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2668" y="276" key="FileChooserDialogImpl/0.21.1920.1015/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582554718928" />
-    <state width="1899" height="283" key="GridCell.Tab.0.bottom" timestamp="1582631835701">
+    <state width="1899" height="283" key="GridCell.Tab.0.bottom" timestamp="1582728276489">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="283" key="GridCell.Tab.0.bottom/0.21.1920.1015/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582631835701" />
-    <state width="1899" height="283" key="GridCell.Tab.0.center" timestamp="1582631835701">
+    <state width="1899" height="283" key="GridCell.Tab.0.bottom/0.21.1920.1015/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582728276489" />
+    <state width="1899" height="283" key="GridCell.Tab.0.center" timestamp="1582728276489">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="283" key="GridCell.Tab.0.center/0.21.1920.1015/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582631835701" />
-    <state width="1899" height="283" key="GridCell.Tab.0.left" timestamp="1582631835701">
+    <state width="1899" height="283" key="GridCell.Tab.0.center/0.21.1920.1015/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582728276489" />
+    <state width="1899" height="283" key="GridCell.Tab.0.left" timestamp="1582728276488">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="283" key="GridCell.Tab.0.left/0.21.1920.1015/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582631835701" />
-    <state width="1899" height="283" key="GridCell.Tab.0.right" timestamp="1582631835701">
+    <state width="1899" height="283" key="GridCell.Tab.0.left/0.21.1920.1015/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582728276488" />
+    <state width="1899" height="283" key="GridCell.Tab.0.right" timestamp="1582728276489">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="283" key="GridCell.Tab.0.right/0.21.1920.1015/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582631835701" />
+    <state width="1899" height="283" key="GridCell.Tab.0.right/0.21.1920.1015/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582728276489" />
     <state x="2468" y="256" key="IDE.errors.dialog" timestamp="1581923718496">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -158,13 +163,13 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2389" y="153" key="SettingsEditor/0.21.1920.1015/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582288620427" />
-    <state x="158" y="84" width="1720" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1582625926006">
+    <state x="158" y="84" width="1720" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1582729088427">
       <screen x="0" y="21" width="1920" height="1015" />
     </state>
-    <state x="158" y="84" width="1720" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.21.1920.1015/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582625926006" />
-    <state x="2568" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1582617051839">
+    <state x="158" y="84" width="1720" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.21.1920.1015/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582729088427" />
+    <state x="2568" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1582728284291">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2568" y="343" key="com.intellij.ide.util.TipDialog/0.21.1920.1015/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582617051839" />
+    <state x="2568" y="343" key="com.intellij.ide.util.TipDialog/0.21.1920.1015/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582728284291" />
   </component>
 </project>

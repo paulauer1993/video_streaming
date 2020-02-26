@@ -2,6 +2,12 @@ import datetime
 import time
 import cv2 as cv
 import threading
+import re
+import subprocess
+
+location = f"/home/paul/Desktop/images/da.jpg"
+original_screen = "path"
+current_screen = "path2"
 
 
 # Decorator.
@@ -21,24 +27,59 @@ def timeit(method):
     return timed
 
 
-def crop_image(index, crop_start, crop_finish):
-    cropped = image[0:height, crop_start:crop_finish]
-    cv.imwrite(f"/home/paul/Desktop/images/cropped_{index}.jpeg", cropped)
+def go_route(route):
+    if route == 1:
+        pass
+    elif route == 2:
+        pass
+    else:
+        pass
+    return route
 
 
-@timeit
-def main():
+def start_stop_video_capture(trigger=True):
+    index = 0
+    vid = cv.VideoCapture(0)
+    while trigger:
+        ret, frame = vid.read()
+        cv.imwrite(location, frame) if ret else None
+        index += 1
+    vid.release()
+
+
+def crop_image(path, route):
+    image = cv.imread(f"{location}")
+    if route == 1:
+        height = image.shape[0] // 2
+        width = image.shape[1]
+    elif route == 2:
+        pass
+    else:
+        pass
     crop_start = 0
     crop_finish = width // 4
     for _ in range(1, 5):
-        crop_image(_, crop_start, crop_finish)
-        crop_start += width // 4
-        crop_finish += width // 4
+        cropped_image = image[0:height, crop_start:crop_finish]
+        cv.imwrite(f"{path}/cropped_{_}.jpeg", cropped_image)
 
 
-image = cv.imread("/home/paul/video/imageCompareEngine/poza.JPEG")
-height = image.shape[0] // 2
-width = image.shape[1]
+def timer(t0, t1):
+    return t1 - t0
 
-while True:
-    main()
+
+def start_threads():
+    p1 = threading.Thread(target=go_route)
+    while compare_screens("", "") < 85:
+        p2 = threading.Thread(target=start_stop_video_capture)
+        p3 = threading.Thread(target=crop_image)
+        p4 = threading.Thread(target=compare_screens)
+    p5 = threading.Thread(target=timer)
+
+
+def compare_screens(original_screen, current_screen):
+    output = subprocess.getoutput(f"/home/paul/video/imageCompareEngine/build/imageCompare {original_screen} {current_screen}").split()
+    similarity = re.findall(r"\d+", output[1])
+    return int(similarity)
+
+
+# ./imageCompare ../sample.jpg ../sample.jpg
