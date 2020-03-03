@@ -1,13 +1,16 @@
 import datetime
 import time
 import cv2 as cv
-import threading
+from threading import Thread
 import re
 import subprocess
 
-location = f"/home/paul/Desktop/images/da.jpg"
-original_screen = "path"
-current_screen = "path2"
+
+def get_l():
+    image = cv.imread("/home/paul/Desktop/images/0.jpeg")
+    height = int(image.shape[1])
+    width = int(image.shape[0])
+    return height, width
 
 
 # Decorator
@@ -27,65 +30,54 @@ def timeit(method):
     return timed
 
 
-# HLK
-def go_route(route):
-    if route == 1:
-        pass
-    elif route == 2:
-        pass
-    else:
-        pass
-    return route
-
-
-def start_stop_video_capture(trigger=True):
-    index = 0
+def start_video_capture():
     vid = cv.VideoCapture(0)
-    while trigger:
-        ret, frame = vid.read()
-        cv.imwrite(location, frame) if ret else None
-        index += 1
+    return vid
+
+
+def video_capture(vid):
+    ret, frame = vid.read()
+    cv.imwrite("/home/paul/Desktop/images/0.jpeg", frame) if ret else None
+
+
+def stop_video_capture(vid):
     vid.release()
 
 
-def crop_image(path, route):
-    image = cv.imread(f"{location}")
-    if route == 1:
-        height = image.shape[0] // 2
-        width = image.shape[1]
-    elif route == 2:
-        pass
-    else:
-        pass
-    crop_start = 0
-    crop_finish = width // 4
-    for _ in range(1, 5):
-        cropped_image = image[0:height, crop_start:crop_finish]
-        cv.imwrite(f"{path}/cropped_{_}.jpeg", cropped_image)
-
-
-def timer(t0, t1):
-    lst = []
-    lst.append(t0 - t1)
-
-
-def start_threads():
-    p1 = threading.Thread(target=go_route)
-    while compare_screens("", "") < 85:
-        p2 = threading.Thread(target=start_stop_video_capture)
-        p3 = threading.Thread(target=crop_image)
-        p4 = threading.Thread(target=compare_screens)
-    p5 = threading.Thread(target=timer)
+def start_processes():
+    a = 0.0
+    height, width = get_l()
+    vid = start_video_capture()
+    while a < 85.0:
+        video_capture(vid)
+        a = crop_and_compare_images(height, width)
+    stop_video_capture(vid)
+    print(a)
 
 
 def compare_screens(original_screen, current_screen):
-    output = subprocess.getoutput(f"/home/paul/video/imageCompareEngine/build/imageCompare {original_screen} {current_screen}").split()
-    similarity = re.findall(r"\d+", output[1])
-    return int(similarity[0])
+    output = subprocess.getoutput(f"/home/paul/video/imageCompareEngine/build/imageCompare {original_screen} {current_screen}")
+    print(float(output))
+    return float(output)
 
 
-# HLK
 def calculate_average(lst):
     return sum(lst) / len(lst)
 
-# ./imageCompare ../sample.jpg ../sample.jpg
+
+@timeit
+def crop_and_compare_images(height, width):
+    # image = cv.imread("/home/paul/Desktop/images/0.jpeg")
+    # cr1 = image[0: width // 2, 0: height // 2]
+    # cr2 = image[width // 2: width, height // 2: height]
+    # cv.imwrite("/home/paul/Desktop/cropped_new/cropped_1.jpeg", cr1)
+    # cv.imwrite("/home/paul/Desktop/cropped_new/cropped_2.jpeg", cr2)
+    # s1 = compare_screens("/home/paul/Desktop/cropped/cropped_1.jpeg", "/home/paul/Desktop/cropped_new/cropped_1.jpeg")
+    # s2 = compare_screens("/home/paul/Desktop/cropped/cropped_2.jpeg", "/home/paul/Desktop/cropped_new/cropped_2.jpeg")
+    # print((s1 + s2) // 2)
+    # return (s1 + s2) // 2
+    s = compare_screens("/home/paul/Desktop/0.jpeg", "/home/paul/Desktop/images/0.jpeg")
+    print(s)
+    return s
+
+start_processes()

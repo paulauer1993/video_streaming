@@ -1,11 +1,11 @@
 import matplotlib.pyplot as plt
 import numpy as np
-
+import keyword
 
 path = "/home/paul/Desktop/da.png"
 
 
-# HLK
+@keyword("PLOT")
 def plot(lst1, lst2, lst3, loops):
     # X and Y axis value.
     x = np.array(list(range(loops)))
