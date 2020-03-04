@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="32e46274-6315-4727-8a28-6a5da7846094" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageProcess.py" beforeDir="false" afterPath="$PROJECT_DIR$/ImageProcess.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imageCompareEngine" beforeDir="false" afterPath="$PROJECT_DIR$/imageCompareEngine" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imageCompareEngine/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/imageCompareEngine/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imageCompareEngine/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/imageCompareEngine/main.cpp" afterDir="false" />
@@ -24,7 +25,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/imageCompareEngine" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -178,10 +179,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2468" y="256" key="IDE.errors.dialog/0.21.1920.1015/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581923718496" />
-    <state x="2389" y="153" key="SettingsEditor" timestamp="1582288620427">
+    <state x="2389" y="153" key="SettingsEditor" timestamp="1583250844687">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2389" y="153" key="SettingsEditor/0.21.1920.1015/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582288620427" />
+    <state x="2389" y="153" key="SettingsEditor/0.21.1920.1015/1920.0.1920.1080@1920.0.1920.1080" timestamp="1583250844687" />
     <state x="375" y="63" width="1720" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1582894721629">
       <screen x="0" y="21" width="1920" height="1015" />
     </state>
@@ -191,16 +192,5 @@
     </state>
     <state x="648" y="343" key="com.intellij.ide.util.TipDialog/0.21.1920.1015/1920.0.1920.1080@0.21.1920.1015" timestamp="1583219511108" />
     <state x="2568" y="343" key="com.intellij.ide.util.TipDialog/0.21.1920.1015/1920.0.1920.1080@1920.0.1920.1080" timestamp="1583229370505" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ImageProcess.py</url>
-          <line>78</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

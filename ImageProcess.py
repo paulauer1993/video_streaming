@@ -67,17 +67,16 @@ def calculate_average(lst):
 
 @timeit
 def crop_and_compare_images(height, width):
-    # image = cv.imread("/home/paul/Desktop/images/0.jpeg")
-    # cr1 = image[0: width // 2, 0: height // 2]
-    # cr2 = image[width // 2: width, height // 2: height]
-    # cv.imwrite("/home/paul/Desktop/cropped_new/cropped_1.jpeg", cr1)
-    # cv.imwrite("/home/paul/Desktop/cropped_new/cropped_2.jpeg", cr2)
-    # s1 = compare_screens("/home/paul/Desktop/cropped/cropped_1.jpeg", "/home/paul/Desktop/cropped_new/cropped_1.jpeg")
-    # s2 = compare_screens("/home/paul/Desktop/cropped/cropped_2.jpeg", "/home/paul/Desktop/cropped_new/cropped_2.jpeg")
-    # print((s1 + s2) // 2)
-    # return (s1 + s2) // 2
-    s = compare_screens("/home/paul/Desktop/0.jpeg", "/home/paul/Desktop/images/0.jpeg")
-    print(s)
-    return s
+    image = cv.imread("/home/paul/Desktop/images/0.jpeg")
+    t1 = Thread(target=cv.imwrite, args=("/home/paul/Desktop/cropped_new/cropped_1.jpeg", image[0: width // 2, 0: height // 2])).start()
+    t2 = Thread(target=cv.imwrite, args=("/home/paul/Desktop/cropped_new/cropped_1.jpeg", image[width // 2: width, height // 2: height])).start()
+    t3 = Thread(target=cv.imwrite, args=("/home/paul/Desktop/cropped_new/cropped_1.jpeg", image[0: width // 2, 0: height // 2])).start()
+    s1 = compare_screens("/home/paul/Desktop/cropped/cropped_1.jpeg", "/home/paul/Desktop/cropped_new/cropped_1.jpeg")
+    s2 = compare_screens("/home/paul/Desktop/cropped/cropped_2.jpeg", "/home/paul/Desktop/cropped_new/cropped_2.jpeg")
+    s3 = compare_screens("/home/paul/Desktop/cropped/cropped_3.jpeg", "/home/paul/Desktop/cropped_new/cropped_3.jpeg")
+    t1.join(), t2.join(), t3.join()
+    print((s1 + s2 + s3) // 3)
+    return (s1 + s2 + s3) // 3
+
 
 start_processes()
